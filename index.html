@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0594b8" />
+    <title>东莞城市学院 2025 招生简章 H5</title>
+    <meta name="description" content="东莞城市学院 2025 年本科招生简章手机 H5，包含招生信息、校园介绍与联系方式。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="东莞城市学院" />
+    <meta property="og:title" content="东莞城市学院 2025 招生简章" />
+    <meta property="og:description" content="东莞城市学院 2025 年本科招生简章手机 H5，点击查看完整图文内容。" />
+    <meta property="og:image" content="./官宣！东莞城市学院2025年招生简章.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="东莞城市学院 2025 招生简章" />
+    <meta name="twitter:description" content="东莞城市学院 2025 年本科招生简章手机 H5，点击查看完整图文内容。" />
+    <meta name="twitter:image" content="./官宣！东莞城市学院2025年招生简章.webp" />
+    <link rel="image_src" href="./官宣！东莞城市学院2025年招生简章.webp" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar" aria-label="页面导航">
+        <button class="icon-button" type="button" data-action="toggle-menu" aria-label="打开目录">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="topbar-title">
+          <strong>东莞城市学院</strong>
+          <small>2025 招生简章</small>
+        </div>
+        <button class="text-button" type="button" data-action="share">分享</button>
+      </header>
+
+      <main>
+        <section class="hero" id="top">
+          <img src="./官宣！东莞城市学院2025年招生简章.webp" alt="东莞城市学院 2025 招生简章封面" />
+          <div class="hero-panel">
+            <p>Admissions 2025</p>
+            <h1>东莞城市学院<br />招生简章</h1>
+            <div class="hero-meta">
+              <span>院校代码 13844</span>
+              <span>本科</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="quick-actions" aria-label="快捷操作">
+          <button type="button" data-action="toggle-menu">目录</button>
+          <button type="button" data-action="first-page">从第 1 页读</button>
+          <button type="button" data-action="contact-page">联系方式</button>
+        </section>
+
+        <section class="reader-status" aria-live="polite">
+          <div>
+            <strong id="currentTitle">封面</strong>
+            <span id="currentCount">第 1 / 16 页</span>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <span id="progressBar"></span>
+          </div>
+        </section>
+
+        <section class="page-list" id="pageList" aria-label="招生简章页面"></section>
+      </main>
+
+      <nav class="bottom-nav" aria-label="底部翻页">
+        <button type="button" data-action="prev-page">上一页</button>
+        <button class="primary" type="button" data-action="toggle-menu">目录</button>
+        <button type="button" data-action="next-page">下一页</button>
+      </nav>
+    </div>
+
+    <aside class="toc-drawer" id="tocDrawer" aria-hidden="true">
+      <div class="drawer-backdrop" data-action="close-menu"></div>
+      <div class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+        <div class="drawer-head">
+          <div>
+            <strong id="drawerTitle">招生简章目录</strong>
+            <span>点击任一页快速跳转</span>
+          </div>
+          <button class="close-button" type="button" data-action="close-menu" aria-label="关闭目录">×</button>
+        </div>
+        <div class="toc-grid" id="tocGrid"></div>
+      </div>
+    </aside>
+
+    <div class="viewer" id="viewer" aria-hidden="true">
+      <div class="viewer-top">
+        <strong id="viewerTitle">第 1 页</strong>
+        <button type="button" data-action="close-viewer" aria-label="关闭大图">×</button>
+      </div>
+      <div class="viewer-canvas">
+        <img id="viewerImage" alt="" />
+      </div>
+      <p>双指可缩放图片，左右按钮可切换页面</p>
+      <div class="viewer-nav">
+        <button type="button" data-action="viewer-prev">上一页</button>
+        <button type="button" data-action="viewer-next">下一页</button>
+      </div>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
