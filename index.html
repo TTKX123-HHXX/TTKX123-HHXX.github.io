@@ -2,118 +2,107 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#18a8dd" />
+    <meta name="theme-color" content="#16a7dc" />
     <title>东莞城市学院 2025 招生简章 H5</title>
-    <meta name="description" content="东莞城市学院 2025 年本科招生简章手机 H5，包含招生信息、校园介绍与联系方式。" />
+    <meta name="description" content="东莞城市学院 2025 年本科招生简章手机 H5，点击章节查看完整图文内容。" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="zh_CN" />
     <meta property="og:site_name" content="东莞城市学院" />
     <meta property="og:title" content="东莞城市学院 2025 招生简章" />
     <meta property="og:description" content="东莞城市学院 2025 年本科招生简章手机 H5，点击查看完整图文内容。" />
-    <meta property="og:image" content="./官宣！东莞城市学院2025年招生简章.webp" />
+    <meta property="og:image" content="./page-01.webp" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="东莞城市学院 2025 招生简章" />
     <meta name="twitter:description" content="东莞城市学院 2025 年本科招生简章手机 H5，点击查看完整图文内容。" />
-    <meta name="twitter:image" content="./官宣！东莞城市学院2025年招生简章.webp" />
-    <link rel="image_src" href="./官宣！东莞城市学院2025年招生简章.webp" />
+    <meta name="twitter:image" content="./page-01.webp" />
+    <link rel="image_src" href="./page-01.webp" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="app-shell">
-      <header class="hero-stage" id="top">
-        <nav class="stage-nav" id="stageNav" aria-label="简章章节快捷导航"></nav>
-
-        <button class="menu-float" type="button" data-action="toggle-menu" aria-label="打开目录">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-
-        <div class="brand-lockup">
-          <div class="brand-mark">城</div>
-          <div>
-            <strong>东莞城市学院</strong>
-            <span>DONGGUAN CITY UNIVERSITY</span>
+      <header class="home-hero" id="top">
+        <div class="hero-glass">
+          <div class="brand-lockup">
+            <div class="brand-mark">城</div>
+            <div>
+              <strong>东莞城市学院</strong>
+              <span>DONGGUAN CITY UNIVERSITY</span>
+            </div>
           </div>
+
+          <button class="menu-button" type="button" data-action="more" aria-label="打开更多功能">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
 
-        <div class="hero-copy">
+        <div class="hero-content">
+          <p>Admissions 2025</p>
           <h1>东莞城市学院<br /><em>2025</em><br />招生简章</h1>
-          <p>院校代码 13844　|　本科</p>
+          <div class="hero-meta">
+            <span>院校代码 13844</span>
+            <span>本科招生</span>
+          </div>
+          <button class="primary-cta" type="button" data-action="show-chapters">查看简章章节</button>
         </div>
 
-        <div class="campus-photo">
-          <img src="./官宣！东莞城市学院2025年招生简章.webp" alt="东莞城市学院 2025 招生简章封面" />
+        <div class="hero-photo">
+          <img src="./page-01.webp" alt="东莞城市学院招生简章封面" />
         </div>
 
-        <div class="hero-wave">
-          <strong>创一流大学，办百年名校</strong>
-          <span>矢志打造一所创新性、应用型、国际化、特色鲜明的高水平大学。</span>
-          <button type="button" data-action="first-page" aria-label="开始阅读">⌄</button>
-        </div>
+        <button class="scroll-cue" type="button" data-action="show-chapters" aria-label="查看章节">⌄</button>
       </header>
 
       <main>
-        <section class="toc-panel" aria-label="目录预览">
-          <div class="panel-title">
-            <strong>目录</strong>
-            <button type="button" data-action="toggle-menu">展开</button>
-          </div>
-          <div class="toc-list" id="inlineToc"></div>
-        </section>
-
-        <section class="chapter-section" aria-labelledby="chapterTitle">
-          <h2 id="chapterTitle">简章章节</h2>
-          <div class="chapter-rail" id="chapterRail"></div>
-        </section>
-
-        <section class="preview-section" aria-label="阅读预览">
-          <article class="start-card">
+        <section class="chapter-home" id="chapters" aria-labelledby="chaptersTitle">
+          <div class="section-title">
+            <span></span>
             <div>
-              <span id="previewKicker">01 封面</span>
-              <strong id="previewTitle">封面</strong>
+              <p>点击章节进入阅读</p>
+              <h2 id="chaptersTitle">简章章节</h2>
             </div>
-            <img id="previewCover" src="./官宣！东莞城市学院2025年招生简章.webp" alt="当前阅读页预览" />
-            <div class="mini-progress">
-              <span id="previewCount">1 / 16</span>
-              <i><b id="miniProgress"></b></i>
-            </div>
-            <button type="button" data-action="first-page">开始阅读</button>
-          </article>
-
-          <article class="gallery-card">
-            <div class="gallery-top">
-              <button type="button" data-action="open-viewer" data-index="0" aria-label="打开大图">⛶</button>
-              <button type="button" data-action="open-viewer" data-index="0" aria-label="关闭预览">×</button>
-            </div>
-            <button class="gallery-main" type="button" data-action="open-viewer" data-index="0">
-              <img id="featureImage" src="./官宣！东莞城市学院2025年招生简章.webp" alt="精选页面预览" />
-            </button>
-            <div class="thumb-strip" id="thumbStrip"></div>
-          </article>
+          </div>
+          <div class="chapter-grid" id="chapterGrid"></div>
         </section>
 
-        <section class="reader-status" aria-live="polite">
-          <div>
-            <strong id="currentTitle">封面</strong>
-            <span id="currentCount">第 1 / 16 页</span>
+        <section class="reader-view" id="reader" aria-label="章节内容" aria-hidden="true">
+          <div class="reader-top">
+            <button type="button" data-action="close-reader">‹ 章节</button>
+            <div>
+              <strong id="readerTitle">封面</strong>
+              <span id="readerCount">第 1 / 16 页</span>
+            </div>
+            <button type="button" data-action="open-viewer">放大</button>
           </div>
+
           <div class="progress-track" aria-hidden="true">
             <span id="progressBar"></span>
           </div>
-        </section>
 
-        <section class="page-list" id="pageList" aria-label="完整招生简章"></section>
+          <article class="page-stage" id="pageStage">
+            <button class="page-arrow prev" type="button" data-action="prev-page" aria-label="上一页">‹</button>
+            <img id="readerImage" src="./page-01.webp" alt="招生简章页面" />
+            <button class="page-arrow next" type="button" data-action="next-page" aria-label="下一页">›</button>
+          </article>
+
+          <div class="reader-actions">
+            <button type="button" data-action="prev-page">上一页</button>
+            <button type="button" data-action="toggle-menu">目录</button>
+            <button type="button" data-action="next-page">下一页</button>
+          </div>
+        </section>
       </main>
 
       <nav class="bottom-nav" aria-label="底部导航">
-        <button type="button" data-action="toggle-menu"><span>▣</span>目录</button>
+        <button type="button" data-action="back-home"><span>▦</span>章节</button>
         <button type="button" data-action="share"><span>⌕</span>分享</button>
-        <button class="pager-pill" type="button" data-action="open-viewer" data-index="0">
+        <button class="pager-pill" type="button" data-action="open-viewer">
           <i>‹</i><b id="bottomCount">1 / 16</b><i>›</i>
         </button>
-        <button type="button" data-action="contact-page"><span>☰</span>更多</button>
+        <button type="button" data-action="more"><span>☰</span>更多</button>
       </nav>
     </div>
 
@@ -123,11 +112,27 @@
         <div class="drawer-head">
           <div>
             <strong id="drawerTitle">目录</strong>
-            <span>点击任一章节快速跳转</span>
+            <span>点击章节快速阅读</span>
           </div>
           <button class="close-button" type="button" data-action="close-menu" aria-label="关闭目录">×</button>
         </div>
         <div class="drawer-list" id="drawerList"></div>
+      </div>
+    </aside>
+
+    <aside class="more-panel" id="morePanel" aria-hidden="true">
+      <div class="drawer-backdrop" data-action="close-more"></div>
+      <div class="more-card" role="dialog" aria-modal="true" aria-labelledby="moreTitle">
+        <div class="drawer-head">
+          <div>
+            <strong id="moreTitle">更多</strong>
+            <span>常用操作</span>
+          </div>
+          <button class="close-button" type="button" data-action="close-more" aria-label="关闭更多">×</button>
+        </div>
+        <button type="button" data-action="show-chapters">查看简章章节</button>
+        <button type="button" data-action="contact-page">联系方式</button>
+        <button type="button" data-action="share">分享链接</button>
       </div>
     </aside>
 
