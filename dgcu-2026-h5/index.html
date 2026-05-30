@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>东莞城市学院 2026 本科招生 H5</title>
+    <meta name="description" content="2026 东莞城市学院本科招生信息，一页了解报考指南、专业方向、校园环境与招生咨询。" />
+    <meta name="keywords" content="东莞城市学院,本科招生,2026招生,H5,报考指南,专业方向" />
+    <meta name="theme-color" content="#0577d8" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="东莞城市学院 2026 本科招生 H5" />
+    <meta property="og:description" content="在大湾区，遇见更适合你的大学。快速了解报考指南、专业方向、校园生活与招生咨询。" />
+    <meta property="og:image" content="./share-card.jpg" />
+    <meta property="og:image:width" content="500" />
+    <meta property="og:image:height" content="500" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="东莞城市学院 2026 本科招生 H5" />
+    <meta name="twitter:description" content="一页了解报考指南、专业方向、校园环境与招生咨询。" />
+    <meta name="twitter:image" content="./share-card.jpg" />
+    <link rel="image_src" href="./share-card.jpg" />
+    <link rel="apple-touch-icon" href="./share-card.jpg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell" aria-label="东莞城市学院招生 H5">
+      <section class="phone-stage" aria-live="polite">
+        <img id="pageImage" class="page-image" alt="" draggable="false" />
+        <div id="choicePage" class="choice-page" hidden></div>
+        <div id="hotspots" class="hotspots" aria-label="当前页面可点击区域"></div>
+        <audio id="bgMusic" src="./Soulloom苏洛牧 - 初晴 (V0).mp3" preload="auto" autoplay loop></audio>
+        <nav class="quick-nav" aria-label="快捷导航">
+          <button id="backBtn" class="nav-btn nav-btn-back" type="button" aria-label="返回上一页" hidden>返回</button>
+          <button id="homeBtn" class="nav-btn" type="button" hidden>首页</button>
+          <button id="contactBtn" class="nav-btn nav-btn-primary" type="button" hidden>咨询</button>
+        </nav>
+      </section>
+
+      <nav id="stageNav" class="stage-nav" aria-label="第一层页面导航"></nav>
+      <p id="stageStatus" class="stage-status"></p>
+    </main>
+
+    <div id="sheet" class="sheet" hidden>
+      <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
+        <button id="sheetClose" class="sheet-close" type="button" aria-label="关闭">×</button>
+        <h2 id="sheetTitle"></h2>
+        <p id="sheetIntro" class="sheet-intro"></p>
+        <div id="sheetActions" class="sheet-actions"></div>
+      </div>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
